@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe by Divij</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/00639dc40a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="new-game hidden">
+        <p id="winner-msg"></p>
+        <button id="new-btn">New Game</button>
+    </div>
+    <div id="main">
+        <h3 id="heading">Tic Tac Toe</h3>
+        <div id="flex-div">
+            <div id="container">
+                <div id="game-board">
+                    <button class="btn bt-0 bl-0 brt-15"></button>
+                    <button class="btn bt-0"></button>
+                    <button class="btn bt-0 br-0 brr-15"></button>
+                    <button class="btn bl-0"></button>
+                    <button class="btn"></button>
+                    <button class="btn br-0"></button>
+                    <button class="btn bl-0 bb-0 brl-15"></button>
+                    <button class="btn bb-0"></button>
+                    <button class="btn bb-0 br-0 brb-15"></button>
+                    <button id="resetBtn">Reset</button>
+                </div>
+            </div>
+            <div id="game-stats">
+                <div id="move-list">
+                    <span class="info">Start with O.</span>
+                    <img src="extras/excited.gif" id="endgif" class="hidegif">
+                </div>
+            </div>
+        </div>
+        <p id="end-text">©️ Divij Singh, 2024</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
